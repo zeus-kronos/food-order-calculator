@@ -1,0 +1,116 @@
+body {
+    background-image: url("burger.jpg");
+    background-size: cover;
+    font-family: Open-sans, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#logo {
+    font-size: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: darkorange;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 100%;
+    padding: 0 30px;
+}
+
+.btn {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn2 {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    opacity: 0.9;
+}
+
+
+.increment-btn {
+    background: darkgreen;
+
+}
+
+.decrement-btn {
+    background: darkred;
+}
+
+.clear-btn,
+.reset-btn {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.clear-btn:hover, 
+.reset-btn:hover {
+    background-color: darkred;
+    border: 1px solid darkred;
+    transition: 0.2s;
+}
+
+.save-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.save-btn:hover {
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    transition: 0.2s;
+    transform: scale(0.99)
+}
+
+#save-el {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: darkorange;
+    background-color: #000;
+    padding: 5px 18px;
+    border-radius: 5px;
+    text-align: center;
+}
